@@ -79,7 +79,7 @@ const OrderForm: React.FC<{
       </Button>
       {selectedCrew && (
         <Typography variant="subtitle1" color="textSecondary">
-          Подходящий экипаж: {selectedCrew.car_mark} {selectedCrew.car_model},
+          Подходящий экипаж: {selectedCrew.car_mark} {selectedCrew.car_model},{" "}
           {selectedCrew.car_color}, {selectedCrew.car_number}
         </Typography>
       )}
